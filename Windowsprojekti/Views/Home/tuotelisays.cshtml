@@ -1,0 +1,22 @@
+﻿
+@{
+    ViewBag.Title = "asiakaslisäys";
+}
+
+<h2>Tuotteen lisäys</h2>
+
+<form action="/Home/lisaatuote">
+    <div class="form-group">
+        <label>Tuote:</label>
+        <input type="text" class="form-control" name="tuote">
+    </div>
+    <div class="form-group">
+        <label>Hinta:</label>
+        <input type="text" class="form-control" name="hinta">
+    </div>
+    <div class="form-group">
+        <label>Varasto:</label>
+        <input type="text" class="form-control" name="varasto">
+    </div>
+    <button type="submit" class="btn btn-default">Lisää</button>
+</form>
